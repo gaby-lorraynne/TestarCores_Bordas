@@ -57,6 +57,23 @@ html, body {
     border: 2px solid rgba(0, 0, 0, 0.15); 
 }
 
+@media (max-width:767px){
+    .content {
+        width: 300px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .content h1 {
+        font-size: 15px;
+    }
+    .content-box {
+        width: 200px;
+        height: 200px;
+    }
+    #input-box {
+        font-size: 15px;
+    }
+}
 
 
 
