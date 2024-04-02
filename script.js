@@ -5,4 +5,5 @@ input.addEventListener('input', () => {
     let value = input.value;
     content_box.style.borderRadius = value;
     content_box.style.background = value;
+    content_box.style.boxShadow = value;
 });
